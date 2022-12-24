@@ -1,12 +1,12 @@
 // Java Program to Print Pascal's Triangle
-
+// Maintainer Sohail Shaikh
+// Program for Test...!!
 // Importing input output classes
 import java.io.*;
 
 // Main Class
 public class GFG {
 
-	// Method 1
 	// To find factorial of a number
 	public int factorial(int a)
 	{
