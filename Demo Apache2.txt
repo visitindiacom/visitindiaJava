@@ -1,0 +1,46 @@
+#Update the Linux repo
+sudo apt-get update
+
+#Install the Apache2 
+sudo apt install apache2 -y
+
+#Check the status
+service apache2 status 
+
+#Verify the application server by using IP
+
+cd /var/www/html
+sudo rm index.html
+#### Changed
+#Get the sample PHP application
+cd ~
+git clone https://github.com/hrishavtandukar/PHPTrialApplication.git
+#### Changed
+#Move the code to apache2 dir.
+sudo mv PHPTrialApplication /var/www/html
+#### Changed
+#change the default location
+sudo nano /etc/apache2/sites-available/000-default.conf
+#DocumentRoot /var/www/html/PHPTrialApplication
+
+cd -
+sudo mv demo.html index.html
+sudo service apache2 restart
+
+# Example 2 with Database
+
+https://github.com/weixiong15/PHP-Bookstore-Website-Example
+
+# Example 3 
+https://github.com/Mushf1qur/EverydayNews
+
+# Example 4
+https://github.com/amoldalwai/E-learning-Website#Installing
+
+
+
+#Ubuntu additional packages.
+sudo apt-get install php libapache2-mod-php -y
+sudo apt install php-dev libmcrypt-dev php-pear -y
+sudo pecl channel-update pecl.php.net
+sudo service apache2 restart
