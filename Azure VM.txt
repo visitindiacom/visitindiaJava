@@ -1,0 +1,4 @@
+Azure VM: devopsAdmin	
+pwd: 92b8Is4^MV9Y
+
+nslookup -type=SOA themusica.xyz
