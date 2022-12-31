@@ -6,7 +6,7 @@
             <mirrorOf>*</mirrorOf>
             <url>http://nexus-server-demo.westus3.cloudapp.azure.com:8081/repository/maven-central/</url>
         </mirror>
-    </mirrors>
+    </mirrors>ccc
     <profiles>
         <profile>
             <id>nexus</id>

@@ -11,4 +11,5 @@ int main() {
     printf("Product = %.2lf", product);
     
     return 0;
+	#editied
 }

@@ -1,9 +1,9 @@
 #Update the Linux repo
 sudo apt-get update
-
-#Install the Apache2 
+## I am my liunes to check pull working
+#Install t 
 sudo apt install apache2 -y
-
+rem Ipsum is simply dumm
 #Check the status
 service apache2 status 
 
@@ -13,34 +13,34 @@ cd /var/www/html
 sudo rm index.html
 #### Changed
 #Get the sample PHP application
-cd ~
+cd ~ver since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
 git clone https://github.com/hrishavtandukar/PHPTrialApplication.git
 #### Changed
 #Move the code to apache2 dir.
 sudo mv PHPTrialApplication /var/www/html
-#### Changed
+#### Changever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentiallyd
 #change the default location
 sudo nano /etc/apache2/sites-available/000-default.conf
 #DocumentRoot /var/www/html/PHPTrialApplication
 
 cd -
 sudo mv demo.html index.html
-sudo service apache2 restart
+sudo service arem Ipsum is simply dummpache2 restart
 
 # Example 2 with Database
 
 https://github.com/weixiong15/PHP-Bookstore-Website-Example
-
+rem Ipsum is simply dumm
 # Example 3 
-https://github.com/Mushf1qur/EverydayNews
+https://github.rem Ipsum is simply dummcom/Mushf1qur/EverydayNews
 
 # Example 4
-https://github.com/amoldalwai/E-learning-Website#Installing
+https://github.crem Ipsum is simply dummom/amoldalwai/E-learning-Website#Installing
 
 
-
-#Ubuntu additional packages.
-sudo apt-get install php libapache2-mod-php -y
-sudo apt install php-dev libmcrypt-dev php-pear -y
+rem Ipsum is simply dummrem Ipsum is simply dumm
+#Ubuntu additirem Ipsum is simply dummonal packages.
+sudo apt-get rem Ipsum is simply dumminstall php libapache2-mod-php -y
+sudo apt instrem Ipsum is simply dummall php-dev libmcrypt-dev php-pear -y
 sudo pecl channel-update pecl.php.net
 sudo service apache2 restart
