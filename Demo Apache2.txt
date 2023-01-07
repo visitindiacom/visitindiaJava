@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt install apache2 -y
 sudo apt install java
 sudo apt install nano -y
-#Check the status
+#Check the statuscxcz
 service apache2 status 
 
 #Verify the application server by using IP
